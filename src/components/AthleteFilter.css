@@ -1,0 +1,153 @@
+.AthleteFilter {
+  /* height: 32px; */
+  min-height: 32px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 7px 10px;
+  color: #363d54;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  max-width: 400px;
+  /* align-items: center; */
+}
+
+.Collapsible {
+  height: 32px;
+  cursor: pointer;
+  display: flex;
+}
+
+.FilterIcon {
+  width: 20px;
+  height: 20px;
+  fill: #363d54;
+  margin-right: 5px;
+}
+
+.Filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.FilterFirstRow,
+.FilterSecondRow {
+  margin-bottom: 10px;
+}
+
+.FilterSecondRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Filter input {
+  width: 100%;
+  height: 28px;
+  border: 0.5px solid #d9d8da;
+  border-radius: 5px;
+  padding: 3px 10px;
+  font-size: 11.5px;
+}
+
+.Filter input:focus {
+  border: 0.5px solid #2ed099;
+  outline: none !important;
+  box-shadow: 0 0 2px #2ed099;
+}
+
+.FilterSecondRow input {
+  width: 48%;
+}
+
+.FilterThirdRow {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.horizontal-slider {
+  width: 100%;
+  height: 30px;
+}
+
+.thumb {
+  background-color: #2ed099;
+  cursor: pointer;
+  border: 2px solid #128b63;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 10px;
+}
+
+.thumb:focus {
+  outline: none;
+}
+
+.horizontal-slider .track {
+  top: 15px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.track.track-0,
+.track.track-1 {
+  background-color: #2ed099;
+}
+
+.FilterFourthRow {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.SortingBy {
+  margin-bottom: 5px;
+}
+
+.SortingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Sorting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7px;
+}
+
+.Cost,
+.Time,
+.FPPG {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #2ed099;
+  color: #fff;
+  font-weight: 400;
+  -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.NotSelected {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  color: #2ed099;
+  background-color: #fff;
+  border: 2px solid #2ed099;
+  font-weight: 400;
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}

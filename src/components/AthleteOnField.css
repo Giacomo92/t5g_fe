@@ -1,0 +1,107 @@
+.AthleteOnFieldLink {
+  height: 80px;
+  width: 80px;
+  position: relative;
+}
+
+.AthleteOnField {
+  height: 80px;
+  width: 80px;
+  position: relative;
+}
+
+.Pentagon {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.JerseyNameAndNumber {
+  position: absolute;
+  width: 120px;
+  height: 105px;
+  top: -10px;
+  left: -17px;
+  display: flex;
+  justify-content: center;
+}
+
+.Jersey {
+  width: 80px;
+  height: 105px;
+  position: absolute;
+  left: 19px;
+}
+
+.RectangleInfoPlayer {
+  background-color: #fff;
+  border: 2px solid #000;
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: -7px;
+  border-radius: 15px;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px 0;
+}
+
+.AthleteOnTeamName {
+  font-size: 9.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+}
+
+.Wrapper {
+  height: 17px;
+  background-color: #dcdcdc;
+  margin: 0 5px;
+  border-radius: 5px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 2px;
+}
+
+.AthleteOnTeamIcon {
+  width: 15px;
+  height: 15px;
+}
+
+.AthleteOnTeamTeamAndPos {
+  display: flex;
+}
+
+.athleteOnTeamTeamOrCountry,
+.athleteOnTeamPos {
+  width: 20px;
+  height: 17px;
+  font-size: 8px;
+  padding: 2.5px 0px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.AthleteOnTeamCost {
+  font-size: 15px;
+  letter-spacing: -1px;
+  color: #6fc892;
+  font-weight: 700;
+}
+
+.AthleteOnTeamEventAndDate {
+  margin-top: 2px;
+  font-size: 8px;
+  font-weight: 400;
+  color: #000;
+  display: flex;
+}
+
+.AthleteOnTeamEvent {
+  margin-right: 2px;
+}

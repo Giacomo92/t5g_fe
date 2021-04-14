@@ -1,0 +1,4 @@
+export const GAMES_REQUEST = 'GAMES_REQUEST'
+export const GAMES_SUCCESS = 'GAMES_SUCCESS'
+export const SET_MODIFY = 'SET_MODIFY'
+export const REMOVE_MODIFY = 'REMOVE_MODIFY'

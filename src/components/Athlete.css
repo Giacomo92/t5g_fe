@@ -1,0 +1,158 @@
+.Athlete {
+  font-weight: 500;
+  border-bottom: 1px solid #ffffff;
+  padding: 10px 0;
+}
+
+.Athlete:last-of-type {
+  border-bottom: none;
+}
+
+p {
+  text-align: left;
+}
+
+.athleteRow {
+  display: flex;
+  align-items: center;
+}
+
+.AthleteLink {
+  display: flex;
+  color: #000;
+  align-items: center;
+  flex: 2;
+}
+
+.AthleteLink:hover,
+.AthleteLink:active,
+.AthleteLink.active {
+  color: #000;
+  text-decoration: none;
+}
+
+.iconCol {
+  display: flex;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  margin-right: 4px;
+}
+
+.iconSport {
+  width: 80%;
+  max-width: 53px;
+  max-height: 53px;
+}
+
+.athleteCol {
+  margin-right: 7px;
+}
+
+.athleteCol p {
+  padding: 0.5px 0;
+}
+
+.athleteNameTeamPos {
+  display: flex;
+}
+
+.athleteName {
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.short-text {
+  display: none;
+}
+
+.athleteTeamOrCountry,
+.athletePos {
+  width: 25px;
+  height: 20px;
+  padding: 2.5px 0px;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.athleteEvent,
+.athleteDate {
+  /* font-size: 10px; */
+  font-weight: 400;
+}
+
+.costFPPGCol {
+  text-align: center;
+  letter-spacing: -0.2px;
+  margin-right: 6px;
+}
+
+.athleteCost {
+  font-size: 19px;
+  letter-spacing: -1px;
+  color: #6fc892;
+  font-weight: 700;
+}
+
+.athleteFPPG {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.athleteFPPG span {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.btnCol {
+  text-align: right;
+}
+
+/* -------- MEDIA QUERY -------- */
+
+@media (max-width: 375px) {
+  .athleteCol {
+    width: 59%;
+  }
+
+  .athleteName {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  .athleteEvent,
+  .athleteDate {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .iconSport {
+    width: 37px;
+    height: 37px;
+  }
+
+  /* .athleteCol {
+    width: 53%;
+  } */
+
+  /* .athleteName {
+    font-size: 11px;
+    margin-right: 4px;
+  } */
+
+  .short-text {
+    display: inline-block;
+  }
+  .full-text {
+    display: none;
+  }
+
+  .athleteTeamOrCountry,
+  .athletePos {
+    width: 20px;
+    height: 16px;
+    font-size: 8px;
+  }
+}

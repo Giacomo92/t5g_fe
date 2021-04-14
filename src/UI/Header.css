@@ -1,0 +1,49 @@
+.HeaderHome {
+  margin-bottom: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.HeaderAthleteDetails {
+  margin-bottom: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1rem 15px;
+}
+
+.BurgerIcon,
+.LeftArrow {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.Text {
+  flex-grow: 2;
+}
+
+h1,
+h2 {
+  /* font-size: 12px; */
+  margin: 0;
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.Logo {
+  width: 40px;
+  height: 20px;
+  justify-self: right;
+}

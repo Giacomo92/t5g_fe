@@ -1,0 +1,44 @@
+.MenuGame {
+  width: 100%;
+  height: 55px;
+  background-color: #fff;
+  color: #929292;
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.MenuLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4px;
+  width: 80px;
+}
+
+.AthleteList .MenuIcon,
+.AthleteList p,
+.Lineup .MenuIcon,
+.Lineup p,
+.Calendar .MenuIcon,
+.Calendar p {
+  fill: #2ed099;
+  color: #2ed099;
+}
+
+.Close {
+  fill: #929292;
+  color: #929292;
+}
+
+.MenuIcon {
+  width: 20px;
+  height: 20px;
+  fill: #929292;
+  margin-bottom: 2px;
+}

@@ -1,0 +1,113 @@
+.SingleGameOpen {
+  height: 100vh;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HeaderSingleGameOpen {
+  margin-bottom: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.SingleGameOpenFirstRow,
+.SingleGameOpenSecondRow {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.SingleGameOpenFirstRow {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.SingleGameOpenUsername,
+.SingleGameOpenModifyOrResult,
+.SingleGameOpenOpponent {
+  width: 90px;
+  text-align: center;
+}
+
+.SingleGameOpenModifyOrResult {
+  background-color: #2ed099;
+  padding: 5px;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.SingleGameModifyLink,
+.SingleGameModifyLink:hover,
+.SingleGameModifyLink:active,
+.SingleGameModifyLink.active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.SingleGameOpenIconSport {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+.SingleGameOpenSecondRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.SingleGameOpenContainerAthletes {
+  width: 98%;
+
+  background: radial-gradient(
+    circle,
+    rgb(255, 255, 255) 0%,
+    rgb(233, 233, 233) 70%
+  );
+  border-radius: 15px;
+  margin-top: 10px;
+  padding: 10px 5px;
+
+  border: 3px solid #fff;
+}
+
+.SingleGameOpenContainerAthletesFirstRow,
+.SingleGameOpenContainerAthletesSecondRow,
+.SingleGameOpenContainerAthletesThirdRow,
+.SingleGameOpenContainerAthletesFourthRow,
+.SingleGameOpenContainerAthletesFifthRow {
+  display: flex;
+}
+
+.SingleGameOpenContainerAthletesFirstRow,
+.SingleGameOpenContainerAthletesSecondRow,
+.SingleGameOpenContainerAthletesThirdRow,
+.SingleGameOpenContainerAthletesFourthRow {
+  padding-bottom: 7.5px;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.SingleGameOpenContainerAthletesSecondRow,
+.SingleGameOpenContainerAthletesThirdRow,
+.SingleGameOpenContainerAthletesFourthRow,
+.SingleGameOpenContainerAthletesFifthRow {
+  margin-top: 7.5px;
+}

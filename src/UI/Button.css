@@ -1,0 +1,21 @@
+.Button {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.Add {
+  background-color: #00753d;
+  border: 2px solid #6fc892;
+}
+
+.Remove {
+  background-color: #8a0b0d;
+  border: 2px solid #ec3336;
+}

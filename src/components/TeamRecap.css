@@ -1,0 +1,23 @@
+.TeamRecap {
+  background-color: #2a2d40;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 400px;
+}
+
+.Budget {
+  padding-right: 0;
+}
+
+.Budget p {
+  text-align: right;
+}
